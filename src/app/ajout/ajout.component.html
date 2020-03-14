@@ -1,0 +1,27 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">Edit étudiant</div>
+  <div class="panel-body">
+
+    <div class="form-group">
+      <label>Nom:</label>
+      <input class="form-control" type="text" [(ngModel)]="etudiant.nom">
+<!--      <label>{{etudiant.nom}}</label>-->
+    </div>
+
+    <div class="form-group">
+      <label>Prenom:</label>
+<!--      //<label>{{etudiant.prenom}}</label>-->
+      <input class="form-control" type="text" [(ngModel)]="etudiant.prenom">
+    </div>
+
+    <div class="form-group">
+      <label>Date de naissance:</label>
+<!--      //<label>{{etudiant.dateNaissance}}</label>-->
+      <input class="form-control" type="text" [(ngModel)]="etudiant.dateNaissance">
+    </div>
+    <button (click)="OnSave()" class="vtn btn-primary">Save</button>
+
+
+  </div>
+</div>
+s
